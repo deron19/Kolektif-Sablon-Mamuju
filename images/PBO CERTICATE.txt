@@ -1,0 +1,1435 @@
+ An object may interact with another object by invoking methods. True or False? 
+True
+False
+
+2. You design a Circle class with various fields and methods. Which of the following could be fields in this class? Distinguish which of these are between the properties and behavior.
+(Choose all correct answers)
+calculateCircumference()
+radius
+color
+calculateDiameter()
+calculateArea()
+
+3. In object oriented programming, there is an emphasis on which of the following two:
+(Choose all correct answers)
+Creation of procedures.
+Modeling objects.
+Writing algorithms.
+Object interaction without a prescribed order.
+Mark for Review
+
+4. In object oriented programming, an object comprises of properties and behaviors where properties represented as fields of the object and behavior is represented as method.  True or False?
+True
+False
+
+5. Which of the following language is called a procedural language?
+Java
+Java C
+C
+C++
+
+
+
+
+6. You’d like to see a movie with a few friends. You write an email to confirm plans.
+
+Hi Friends,
+There’s a new movie “Attack of the Duke!” premiering this Friday at Oracle Cinema at 4:30 PM. The cinema is at the corner of South Street and Walnut Ave. Subway would be the best way to get there.
+
+Would any of you be interested in going?
+
+Which of the following are requirements for this plan?
+Watch “Attack of the Duke!” on Friday at Oracle Cinema at 4:30 PM.
+Reach the cinema by 4:00 PM.
+Travel via subway.
+Double check the location by verifying you’re on South Street and Walnut Ave.
+
+7. During the Design phase of software development, the programmer implements features gathered during the Requirement phase.  True or False?
+True
+False
+
+8. What is the correct order of steps in the Spiral Model of Development?
+Requirements, Design, Develop, Test
+Design, Develop , Requirements, Test
+Requirements, Design, Test, Develop
+Design, Requirements, Develop, Test
+
+9. The Spiral Model reflects an iterative development process.  True or False?
+True
+False
+
+10. Which of the following 2 statements are true about whitespace?
+(Choose all correct answers)
+Whitespace reduces the performance of the program.
+Whitespace increases execution time of your program.
+Whitespace helps to keep your code organized.
+Whitespace eliminates typing mistakes while programming.
+Whitespace makes your code more readable.
+
+
+
+11.You can set any number of breakpoints for your program.
+True
+False
+
+12. A breakpoint can be set by clicking a number in the left margin of the IDE. Clicking again removes the breakpoint.
+True
+False
+
+13. Java mostly reads code line-by-line.
+True
+False
+
+14. What is the purpose of adding comments in the code?
+Provide an explanation about the code to the programmer.
+To provide better security to the program.
+It increases the execution time of the code.
+Provide good look and feel of the code.
+
+15. Which two are the correct syntax for adding comments?  (Choose two)
+(Choose all correct answers)
+Start with a slash-star (/*). End with a star-slash (*/).
+Start with two slashes (//). End when the line ends.
+Start with two slashes and a star (//*). End with a star-slash (*/).
+Start with a slash- star (/*). End with slash-star (/*).
+Start with two slashes (//). End with two slashes (//).
+
+
+1. Assuming x is an int, which of the following are ways to increment the value of x by 1?  (Choose three)
+(Choose all correct answers)
+x = x +1;
+x = +1;
+x+;
+x++;
+x += 1;
+
+2. What value is assigned to x?
+
+int x = 25 - 5 * 4 / 2 - 10 + 4;
+8
+9
+34
+7
+
+3. Which two are mathematical operators?  (Choose two)
+(Choose all correct answers)
++
+–
+#
+@
+
+4. Which data type is most commonly used to represent numeric data?
+int
+float
+String
+short
+
+5. What is the range of the byte data type?
+–27 to 27–1
+–215 to 215–1
+–231 to 231–1
+–263 to 263–1
+
+
+6. How many bits are in a byte?
+2
+4
+6
+7
+8
+
+7. Which keyword makes a variable’s value unchangeable?
+const
+final
+static
+break
+
+8. What is the output? public static void main(String args[]) {
+  int x = 100;
+  int y = x;
+  y++;
+  System.out.println("Value of x is " + x);
+  System.out.println("Value of y is " + y);
+}
+Value of x is 0
+Value of y is 1
+Value of x is 100
+Value of y is 1
+Value of x is 100
+Value of y is 1
+Value of x is 100
+Value of y is 101
+
+9. Which two are valid?   (Choose two)
+(Choose all correct answers)
+double doubleVar1 = 3.1; double doubleVar2 = 3.1;
+double doubleVar1, double doubleVar2 = 3.1;
+double doubleVar1, doubleVar2 = 3.1;
+double doubleVar1; doubleVar2 = 3.1.
+
+10. Which of the following two statements are true about variables?  (Choose two)
+(Choose all correct answers)
+The allow code to be edited more efficiently.
+Variables will be ignored by compiler.
+The value assigned to a variable may never change.
+They make code more flexible.
+
+
+11. Which is valid syntax to declare and initialize a String variable?
+String "x" = "Java";
+String x= "Java";
+String "x" = Java;
+String x = Java;
+
+12. What is the output?
+
+public class Hello {
+  public static void main(String args[]) {
+    String str = "Hello";
+    str = "World";
+   System.out.println(str);
+  }
+}
+Hello
+Hello
+World
+Hello World
+World
+
+13. Identify the names of two variables used in the given code.  (Choose two)
+
+public class Variables {
+  public static void main(String args[]) {
+   String strVal = "Hello";
+  int intVal = 0;
+   System.out.println("Integer: " +intVal)
+ }
+}
+(Choose all correct answers)
+Hello
+int
+strVal
+intVal
+String
+
+14. Java is a strongly typed language; therefore you must declare a data type for all variables.  True or False?
+True
+False
+
+15. Assigning a value to the variable is called "initialization". True or False?
+True
+False
+
+
+1. char is the primitive textual data type in Java. True or False?
+True
+False
+
+2. Char data types cannot handle multiple characters. True or False?
+True
+False
+
+3. An Object cannot have String objects as properties.  True or False?
+True
+False
+
+4. A character preceded by backslash is called an escape sequence.  True or False?
+True
+False
+
+5. Which is the correct declaration for a char data type?
+char size = “Medium”;
+char size = ’M’;
+char size = “M”;
+char size = ’Medium’;
+
+
+6. Which two statements are true about String concatenation.  (Choose two)
+(Choose all correct answers)
+String concatenation cannot be done with numbers.
+String concatenation can be done with String variables and String Literals.
+Strings can be combined using the ‘+’ operator
+String concatenation cannot be done with more than two String Literals.
+
+7. Which two statements are true about the Scanner class?  (Choose two)
+(Choose all correct answers)
+A Scanner object doesn’t have fields and methods.
+Scanners cannot read text files.
+A Scanner object opens a stream for collecting input.
+A Scanner’s delimiter can be changed.
+
+8. It's best-practice to close the Scanner stream when finished.  True or False?
+True
+False
+
+9. System.in readies Scanner to collect input from the console.  True or False?
+True
+False
+
+10. When the result of an expression is assigned to a temporary memory location, what is the size of memory allocated?
+The size of the smallest data type used in the expression.
+A default size is allocated.
+The size of the largest data type used in the expression.
+The size of the any data type used in the expression.
+
+
+11. Automatic promotion from smaller data type to a larger data type is not allowed in Java.  True or False?
+True
+False
+
+12. Which two statements are true about type casting?  (Choose two)
+(Choose all correct answers)
+Type casting changes the type of the value stored.
+Type casting cannot be performed on equations.
+Type casting lowers the range of possible values.
+Type casting retains the size of the value or the original data type.
+
+13. What is parsing?
+Converting numeric data to a specified numeric data type
+Converting numeric data to text
+Converting text to numeric data
+Reading text from numeric data
+
+14. The Java compiler automatically promotes byte, short, and chars data type values to int data type. True or False?
+True
+False
+
+15. Which is a valid way to parse a String as an int?
+int intVar1 = Integer.parseInt("100");
+int intVar1 = "100";
+nt intVar1 = (int)"100";
+int intVar1 = Integer.parseInt("One Hundred");
+
+
+1. The classes of the Java class library are organized into packages. True or False?
+True
+False
+
+2. The import statement consists of two parts.
+
+import package.className;
+
+One is the package name and the other is the classname.  True or False?
+True
+False
+
+3. Given the import statement:
+import java.awt.font.TextLayout;
+which is the package name?
+java.awt
+java.awt.font
+java
+awt.font
+
+4. Which is a risk of using fully qualified class names when importing?
+Code readability is reduced.
+Memory usage is increased.
+Performance of the code is reduced.
+The compiler runs longer.
+
+5. Which two are valid import statements of the Scanner class?  (Choose two)
+(Choose all correct answers)
+import java.util.*;
+import java.*;
+import java.util.Scanner;
+import java.util;
+
+
+6. Which of the following wild card character is used to import all the classes in a particular package?
+*
+;
+~
+!
+
+7. The JFrame and JOptionPane classes are in the javax.swing package. Which two will import those classes?  (Choose two)
+(Choose all correct answers)
+import javax.swing.J*;
+import javax.swing.*;
+import javax.swing.JOptionPane;
+import javax.swing.JFrame;
+import javax.swing;
+
+8. In Java, methods usually hold the properties of an object.  True or False?
+True
+False
+
+9. Which of the following statements are true?  (Choose two)
+(Choose all correct answers)
+Methods can never be written with more than four parameters.
+Parameter values can be used within the method code block.
+Methods cannot be written with parameters.
+Parameter values can never be used within the method code block.
+Methods can be written with any number of parameters.
+
+10. Methods allow all instance of a class to share same behaviors.
+True
+False
+
+
+11. Object instantiation is done using what keyword?
+new
+instance
+void
+System
+
+12. Which of the following scenarios would be ideal for writing a method?
+For every five to six lines of code.
+When you don’t find similar lines of code to describe an object’s behavior.
+To group similar data types together
+When you don’t want to repeat similar lines of code to describe an object’s behavior.
+
+13. Once an object is instantiated, how might its fields and methods be accessed in Java?
+Using the dot(.) operator
+Using the comma(,) operator
+Using the colon(:) operator
+Using the double-colon(::) operator
+
+14. How many arguments does the following method accept?
+
+public void simpleInterest(double principal, int noofYears, double interestRate){
+  System.out.println("The interest rate is " +interestRate );
+}
+2
+0
+1
+3
+
+15. Which of the following are the arguments in the following method?
+
+Employee emp = new Employee();
+emp.calculateSalary(100000, 3.2, 15);
+emp.calculateSalary(100000, 3.2, 15);
+100000, 3.2, 15
+calculateSalary(100000, 3.2, 15);
+emp
+
+
+
+1. All the methods in the Math class are static methods. True or False?
+True
+False
+
+2. Every method of the Math class returns a numerical result.  True or False?
+True
+False
+
+3. Which two are the features of the Math class?
+(Choose all correct answers)
+Common math functions like square root are taken care of in the language.
+You don’t have to worry about the data type returned from a Math method.
+Math methods can be invoked with Strings as arguments.
+The Math methods can be invoked without creating an instance of a Math object.
+
+4. What is the package name which contains Math class?
+java.lang
+java.awt
+java.net
+java.io
+
+5. The String concat() method concatenates only String data types.  True or False?
+True
+False
+
+6. The replaceFirst() method replaces only the first occurrence of matching character pattern in a string.  True or False?
+True
+False
+
+7. The String class must be imported using java.lang.String; True or False?
+True
+False
+
+8. What is the output of the following code?
+
+public static void main(String args[]) {
+   String firstString = "Java";
+   firstString = firstString.concat("World");
+   System.out.println(firstString);
+}
+World
+Java World
+JavaWorld
+Java
+
+9. The indexOf() method returns the index value of a character in the string.  True or False?
+True
+False
+
+10. String objects are immutable.
+True
+False
+
+11. What is the output?
+
+public static void main(String args[]) {
+   String greeting = "Java World!";
+   String w = greeting.replace("a", "A");
+   System.out.println(w);
+}
+JAva World!
+Java World!
+JavA World!
+JAvA World!
+
+12. Using the Random class requires an import statement.  True or False?
+
+True
+False
+
+13. You need to generate random integer values in the range 2 through 10. This code fragment will produce the desired result.  True or False?
+
+Random r = new Random();
+r.nextInt(9) + 2;
+True
+False
+
+14. Which class is used to generate random numbers?
+Random
+Integer
+Double
+Number
+
+15. You need to generate random integer values between 0 and 80 (inclusive). Which statement should you use?
+nextInt(80);
+nextInt();
+nextInt(0-79);
+nextInt(81);
+
+1. Which two of the following data types can be used in a switch statement?  (Choose two)
+(Choose all correct answers)
+int
+String
+float
+boolean
+
+2. What is the output?
+
+char grade = 'A';
+switch (grade) {
+   case 'A':
+      System.out.println("Congratulations!");    case 'B':
+      System.out.println("Good work");
+   case 'C':
+      System.out.println("Average");
+   case 'D':
+      System.out.println("Barely passing");
+   case 'F':
+      System.out.println("Failed");
+}
+Congratulations!
+Failed
+Congratulations! Good Work Average Barely Passing Failed
+A
+
+3. What is the output?
+
+public static void main(String args[]) {
+   char ch ='c';
+   switch(ch) {
+     case 'a':
+     case 'e':
+     case 'i':
+     case 'o':
+     case 'u':
+       System.out.println("Vowels");
+       break;
+     default:
+       System.out.println("Consonants");
+   }
+}
+Consonants
+Vowels
+Vowels
+Compilation error
+
+4. Which two statements are true about the default statement?  (Choose two)
+(Choose all correct answers)
+When the input does not match any of the cases, the default statement is executed.
+A default statement is executed by default when the program is executed.
+A default statement is required in every switch statement.
+The default statement is optional in switch statement.
+
+5. What is the result?
+
+public static void main(String[] args) {
+   int point = 10;
+   String s = (point == 1 ? "point" : "points");
+   System.out.println("I scored " +point +" " +s );
+}
+I scored 1 point
+Compilation error
+I scored 1 point 10 points
+I scored 10 points
+
+6. An employee is eligible for a bonus based on certain criteria.
+Under what conditions does "Eligible for a bonus" print?
+
+int rating;
+int experience;
+if (rating > 1 && experience == 5) {
+   System.out.println ("Eligible for a bonus");
+}
+5 rating and 1 experience
+Less than 5 experience and 1 rating.
+5 experience and 2 or more rating
+5 experience and 1 rating
+
+7. In Java, an if statement can be nested inside another if statement.  True or False?
+True
+False
+
+8. In the AND (&&) test, if the first expression on the left hand side is false, then there is no need to evaluate the second statement.  True or False?
+True
+False
+
+9. Which three are conditional statements?  (Choose three)
+(Choose all correct answers)
+for loop
+if/else statement
+do while loop
+switch statement
+if statement
+
+10. A String comparison with == compares the Strings’ locations in memory and not the content of the String.  True or False?
+True
+False
+
+11. Which are used in a boolean expression?  (Choose two)
+(Choose all correct answers)
+Loops
+Errors
+Operators
+Variables
+
+12. How should Strings be compared?
+~=
+==
+=
+The equals() method
+
+13. An if/else statement is used when you need to choose between two alternatives.  True or False?
+True
+False
+
+14. Which operator is used to test if both sides of a boolean expression are equal?
+==
+=
+<=
+>=
+
+15. What is the output?
+
+public static void main(String[] args) {
+   int age = 43;
+   if (age == 43){
+     System.out.print("Bob is 43 ");
+   }
+   if (age == 50){
+     System.out.print("Bob is 50 ");
+   }
+}
+Bob is 50
+Bob is 43
+Bob is 43 Bob is 50
+No output
+
+
+1. There are several fields and methods in a Shirt class. Which of the following could be a method in the Shirt class?
+color
+price
+size
+getShirtSize()
+
+2. You design a Circle class with various fields and methods. Which of the following could be fields in this class? Distinguish which of these are between the properties and behavior.
+(Choose all correct answers)
+radius
+calculateCircumference()
+calculateArea()
+calculateDiameter()
+color
+
+3. You have a beautiful garden at home. On Sunday, you start budding your rose plant to make few more samples of rose plants to plant in the garden. Can you categorize how this scenario could be represented by classes and instances?
+Rose plant is the object and samples are not instances of the plant because they have not grown yet.
+Samples of the rose plant are called classes and not the actual rose plant.
+Samples are the class and the rose plant is the instances of samples.
+Rose plant is the class and the samples generated from the rose plant are instances of that class.
+
+4. Which of the following are adequate definitions for components of the Spiral Model of Development?  (Choose two)
+(Choose all correct answers)
+Requirements: Start the development
+Test: Run the code and verify results
+Design: Plan the approach
+Develop: Collect all specified instructions
+
+5. During the Design phase of software development, the programmer implements features gathered during the Requirement phase.  True or False?
+True
+False
+
+
+6. A software feature may allow the user to perform a specific task.  True or False?
+True
+False
+
+7. You can set any number of breakpoints for your program.
+True
+False
+
+8. Which of the following 2 statements are true about whitespace?
+(Choose all correct answers)
+Whitespace reduces the performance of the program.
+Whitespace increases execution time of your program.
+Whitespace makes your code more readable.
+Whitespace eliminates typing mistakes while programming.
+Whitespace helps to keep your code organized.
+
+9. Which two are the correct syntax for adding comments?  (Choose two)
+(Choose all correct answers)
+Start with two slashes and a star (//*). End with a star-slash (*/).
+Start with two slashes (//). End when the line ends.
+Start with a slash- star (/*). End with slash-star (/*).
+Start with two slashes (//). End with two slashes (//).
+Start with a slash-star (/*). End with a star-slash (*/).
+
+Section 3
+(Answer all questions in this section)
+10. Which is the correct declaration for a char data type?
+char size = “Medium”;
+char size = ’M’;
+char size = ’Medium’;
+char size = “M”;
+
+
+11. Given the expression:
+
+String message = "Hello World";
+
+Which is the String Literal?
+String message
+String message = "Hello World";
+message
+Hello World
+
+12. Which two statements are true about String concatenation.  (Choose two)
+(Choose all correct answers)
+String concatenation cannot be done with numbers.
+String concatenation cannot be done with more than two String Literals.
+Strings can be combined using the ‘+’ operator
+String concatenation can be done with String variables and String Literals.
+
+13. This declaration represents a long data type. True or False?
+long a = 123L;
+True
+False
+
+14. How many bits are in a byte?
+2
+4
+6
+7
+8
+
+15. What value is assigned to x?
+
+int x = 25 - 5 * 4 / 2 - 10 + 4;
+8
+9
+34
+7
+
+16. These two code fragments perform the same task.  True or False?
+
+// Fragment 1
+String inputString = JOptionPane.showInputDialog("??");
+int input = Integer.parseInt(inputString);
+input++;
+
+// Fragment 2
+int input = Integer.parseInt(JOptionPane.showInputDialog("??")) + 1;
+True
+False
+
+17. System.in readies Scanner to collect input from the console.  True or False?
+True
+False
+
+18. The Scanner class accepts input in which form?
+Integer
+Tokens
+Callables
+Future
+
+19. Which two statements will not compile?  (Choose two)
+(Choose all correct answers)
+int age=20;
+double double=10;
+double salary = 20000.34;
+int abc = 10;
+int break=10;
+
+20. Which two are valid assignments of a?  (Choose two)
+(Choose all correct answers)
+int a = 10;
+int a = 10
+int a = "10";
+int a; a = 10;
+
+21. What is the output?
+
+public class Welcome {
+  public static void main(String args[]) {
+   System.out.println("This is my first program");
+   int a = 2;
+   System.out.println("a is " + a);
+  }
+}
+This is my first program
+a=2
+This is my first program a is + a
+This is my first program a is 2
+
+22. Which two statements are true about type casting?  (Choose two)
+(Choose all correct answers)
+Type casting retains the size of the value or the original data type.
+Type casting lowers the range of possible values.
+Type casting cannot be performed on equations.
+Type casting changes the type of the value stored.
+
+23. What is parsing?
+Converting text to numeric data
+Reading text from numeric data
+Converting numeric data to a specified numeric data type
+Converting numeric data to text
+
+24. When the result of an expression is assigned to a temporary memory location, what is the size of memory allocated?
+A default size is allocated.
+The size of the largest data type used in the expression.
+The size of the any data type used in the expression.
+The size of the smallest data type used in the expression.
+
+Section 4
+(Answer all questions in this section)
+25. The Math class methods can be called without creating an instance of a Math object.  True or False?
+True
+False
+
+
+26. What is the approximate value of PI?
+0
+The value varies.
+3.141
+2.718
+
+27. The String concat() method concatenates only String data types.  True or False?
+True
+False
+
+28. What is the output of the following code?
+
+public static void main(String args[]) {
+   String firstString = "Java";
+   firstString = firstString.concat("World");
+   System.out.println(firstString);
+}
+Java World
+Java
+World
+JavaWorld
+
+29. String objects are immutable.
+True
+False
+
+30. The indexOf() method returns the index value of a character in the string.  True or False?
+True
+False
+
+
+
+31. Which values are returned by the method nextBoolean();
+Either a true or false.
+Nothing is returned.
+An integer value.
+Returns the next value.
+
+32. You need to generate random integer values between 0 and 80 (inclusive). Which statement should you use?
+nextInt();
+nextInt(81);
+nextInt(0-79);
+nextInt(80);
+
+33. You need to generate random integer values in the range 2 through 10. This code fragment will produce the desired result.  True or False?
+
+Random r = new Random();
+r.nextInt(9) + 2;
+True
+False
+
+34. Given the import statement:
+import java.awt.font.TextLayout;
+which is the package name?
+java
+awt.font
+java.awt.font
+java.awt
+
+35. Import statements are placed above the class definition.  True or False?
+True
+False
+
+36. Which is a risk of using fully qualified class names when importing?
+Performance of the code is reduced.
+The compiler runs longer.
+Code readability is reduced.
+Memory usage is increased.
+
+37. Which two are valid import statements of the Scanner class?  (Choose two)
+(Choose all correct answers)
+import java.*;
+import java.util;
+import java.util.*;
+import java.util.Scanner;
+
+38. An argument is a value that's passed during a method call. True or False?
+True
+False
+
+39. Which of the following statements are true?  (Choose two)
+(Choose all correct answers)
+Parameter values can never be used within the method code block.
+Parameter values can be used within the method code block.
+Methods can be written with any number of parameters.
+Methods can never be written with more than four parameters.
+Methods cannot be written with parameters.
+
+40. Which of the following are the arguments in the following method?
+
+Employee emp = new Employee();
+emp.calculateSalary(100000, 3.2, 15);
+emp.calculateSalary(100000, 3.2, 15);
+emp
+100000, 3.2, 15
+calculateSalary(100000, 3.2, 15);
+
+
+41. How many arguments does the following method accept?
+
+public void simpleInterest(double principal, int noofYears, double interestRate){
+  System.out.println("The interest rate is " +interestRate );
+}
+3
+1
+0
+2
+
+Section 5
+(Answer all questions in this section)
+42. What is the output?
+
+public static void main(String args[]) {
+   char ch ='c';
+   switch(ch) {
+     case 'a':
+     case 'e':
+     case 'i':
+     case 'o':
+     case 'u':
+       System.out.println("Vowels");
+       break;
+     default:
+       System.out.println("Consonants");
+   }
+}
+Compilation error
+Consonants
+Vowels
+Vowels
+
+43. What is the output?
+
+char grade = 'A';
+switch (grade) {
+   case 'A':
+      System.out.println("Congratulations!");    case 'B':
+      System.out.println("Good work");
+   case 'C':
+      System.out.println("Average");
+   case 'D':
+      System.out.println("Barely passing");
+   case 'F':
+      System.out.println("Failed");
+}
+Failed
+Congratulations! Good Work Average Barely Passing Failed
+Congratulations!
+A
+
+44. Which are used in a boolean expression?  (Choose two)
+(Choose all correct answers)
+Loops
+Variables
+Operators
+Errors
+
+45. An if/else statement is used when you need to choose between two alternatives.  True or False?
+True
+False
+
+
+46. What is the output?
+
+public static void main(String[] args) {
+   int age = 43;
+   if (age == 43){
+     System.out.print("Bob is 43 ");
+   }
+   if (age == 50){
+     System.out.print("Bob is 50 ");
+   }
+}
+No output
+Bob is 50
+Bob is 43
+Bob is 43 Bob is 50
+
+47. Which operator is used to test if both sides of a boolean expression are equal?
+==
+<=
+>=
+=
+
+48. In the AND (&&) test, if the first expression on the left hand side is false, then there is no need to evaluate the second statement.  True or False?
+True
+False
+
+49. Which two are not logical operators?  (Choose two)
+(Choose all correct answers)
+%
+||
+&&
+!
++
+
+50. In the OR (||) test, if the first expression on the left hand side is true then there is no need to evaluate the second statement.  True or False?
+True
+False
+
+
+1. Which statement will produce the output: 2, 4, 6, 8, 10?
+for (int i = 0; i < 8; i += 2) {
+   System.out.print(i + " ");
+}
+for (int i = 0; i < 10; i += 2) {
+  System.out.print(i + " ");
+}
+for (int i = 1; i < 10; i += 2) {
+  System.out.print(i + " ");
+}
+for (int i = 2; i <= 10; i += 2) {
+  System.out.print(i + " ");
+}
+
+2. What is the result?
+
+public static void main(String[] args) {
+    for (;;) {
+     System.out.println("Welcome to Java");
+   }
+}
+Program prints "Welcome to Java" an infinite number of times.
+No error and no output.
+Program prints "Welcome to Java" once.
+Compilation error as expressions are missing in the for loop.
+
+3. Which is not a looping statement in Java?
+while
+do-while
+switch
+for
+
+4. Given:
+
+for(int i = 0; i > 10; i++){ }
+What type of variable is i?
+Local
+Member
+Global
+Static
+
+5. You want to compute the sum of all the marks of a given subject. Which approach will you choose?
+if/else statement
+switch statement
+if statement
+Looping
+
+
+6. When is an update expression in a for loop executed?
+After each iteration through the loop.
+After two iterations through the loop.
+Before each iteration through the loop.
+Before the first iteration through the loop.
+
+7. The only way to exit a loop is for the loop condition to evaluate to false.  True or False?
+True
+False
+
+8. A continue statement is used to skip the remaining statements in the body of a loop and continue with the next iteration of the loop.  True or False?
+True
+False
+
+9. Which two statements are true about the break statement?  (Choose two)
+(Choose all correct answers)
+When a break statement is executed inside a loop, the loop-statement is terminated immediately.
+When a break statement is executed inside a loop, the loop-statement is terminated immediately and comes out of the program.
+The execution of the program will continue with the statement following the loop-statement.
+The execution of the program will stop at the statement following the loop-statement.
+
+10. Which statement is true?
+A while loop boolean expression is made up of a counter, increment, and test.
+The boolean expression that determines the number of loop iterations is within the parentheses of a while loop.
+A counter (i) is declared and initialized inside the while loop.
+The counter which gets incremented determines the number of loop iterations is within the parentheses of a while loop.
+
+
+
+
+11. A pre-test loop evaluates the condition prior to execution of the loop..  True or False?
+True
+False
+
+12. A while loop is often used with Scanner input as you don't know many times you'll need to re-prompt the user if they type bad data.
+True
+False
+
+13. A post-test loop evaluates its condition at the end of the loop instead of the beginning.
+True
+False
+
+14. Which statement is false about infinite loop?
+An infinite loop is a code which will execute until the user interrupts the program
+An infinite loop is a commonly the result of a syntax error.
+The body of a while loop eventually must make the condition false to avoid infinite loop.
+An infinite loop is generally caused by a programming mistake.
+
+15. Which statement is NOT true about do-while loops?
+Statements in the loop are executed once initially, and then the condition is evaluated.
+Statements in the loop are executed once until the condition becomes false.
+Statements in the loop are executed repeatedly until the condition becomes false.
+The number of times a do-while loop is executed is dependent upon the value of the counter variable.
+
+1. You have created an Employee class with all required fields and methods. 10 employees join the company. Should you copy and paste the Employee class for all 10 employees?  True or False?
+True
+False
+
+2. The structure of a class consists of properties and behaviors.  True or False?
+True
+False
+
+3. First, you decide the radius of each circle in the logo. Then using the same radius you draw 5 circles of same size. All these circles will have properties like radius and color. All circles share behaviors to calculate circumference and area. Can you identify which of the following is an object?
+circumference
+radius
+fiveCircles
+circle
+
+4. If fields aren't initialized, they take on a default value.  True or False?
+True
+False
+
+5. An object reference with a null value points to an empty location in memory.  True or False?
+True
+False
+
+
+
+6. How could you write the Employee constructor so that its parameters are named the same as the fields they’re initializing?
+
+public class Employee{
+   private String name;
+   private double salary;
+   public Employee(String name, double salary){
+     //initialize name
+     //initialize salary
+   }
+}
+public Employee(String name, double salary){
+   name = name;
+   salary = salary;
+}
+public Employee(String name, double salary){
+   name = this.name;
+   salary = this.salary;
+}
+public Employee(String name, double salary){
+   this.name = name;
+   this.salary = salary;
+}
+public Employee(String name, double salary){
+   this.name = this.name;
+   this.salary = this.salary;
+}
+
+7. What will happen when you try to access an object reference with a null value?
+NullPointerException.
+The value null is retrieved from the memory location.
+An empty object is returned.
+You will get a compilation error.
+
+8. You create an Employee object with a String employeeName field. What is the default value for employeeName?
+null
+A space
+"Name"
+"default"
+
+9. When you write your own constructor, the default constructor is no longer available.  True or False?
+True
+False
+
+10. In the following statements, how many employee objects are created?
+
+Employee e1 = new Employee();
+Employee e2 = new Employee();
+Employee e3 = new Employee();
+2
+3
+1
+0
+
+
+
+
+11. What is the output of the following code?
+
+String s1 = "Hello";
+String s2 = "Welcome!";
+s1 = s2;
+System.out.println("s1: " +s1);
+System.out.println("s2: " +s2);
+s1: Hello
+s2: Welcome!
+s1: Welcome!
+s2: Welcome!
+s1: Hello
+s2: Hello
+s1: Welcome!
+s2: Hello
+
+12. In this statement, identify the type of the variable s.
+
+Student s = new Student();
+Class
+Student
+String
+null
+
+13. Which type of memory is allocated for the code below?
+
+int x = 1;
+int y = 2;
+x=y;
+Heap memory
+No memory is allocated
+PileDriver memory
+Stack memory
+
+14. Objects are accessed using reference variables.   True or False?
+True
+False
+
+15. Which is stored within the stack memory?
+Local variables
+Objects
+Instance variables
+Strings
+
+
+1. If you need to make a particular variable belong to a class rather than any individual instance, what type of variable should you use?
+A private variable.
+A static variable.
+A public variable.
+A local variable.
+
+2. Given the following code, why does your IDE complain that “non-static variable name cannot be referenced from a static context”?
+
+public class Employee{
+   public static int employeeID;
+   public String name;
+
+   public static void display(){
+     System.out.println(employeeID);
+     System.out.println(name);
+   }
+}
+It would be possible to call the display() method and attempt to reference an object’s name before any object exists.
+Static variables are only accessible from instance methods.
+Static variables cannot be referenced from methods.
+The variable name has a null value.
+
+3. The fields and methods of the Math class cannot be directly accessed as they are static.  True or False?
+True
+False
+
+4. An object must be instantiated before its non-static fields and methods can be accessed.  True or False?
+True
+False
+
+5. Method overloading can be a useful technique for defining methods with similar functionality or calculations.  True or False?
+True
+False
+
+
+6. How would you complete this code so that one add method calls the other add method?
+
+public int add(int a, int b, int c) {
+  return(a+b+c);
+}
+public int add(int a, int b){
+  //Complete this line.
+}
+return add(a, b, 0);
+return add(a, b, c);
+return (a, b);
+return (a, b, c);
+
+7. Methods can call other methods in the same class.  True or False?
+True
+False
+
+8. Which statement is true?
+You must write at least one constructor in your class.
+The default constructor can accept arguments.
+A constructor can be written to accept arguments.
+The default constructor is still available when you add your own constructor.
+
+9. To make fields directly accessible to all other classes, the class fields must be marked public.  True or False?
+True
+False
+
+10. What is encapsulation?
+A technique for including primitives within an ArrayList.
+A technique for limiting one class’s visibility to another.
+A technique for writing more than one main method.
+A technique for debugging.
+
+
+11. An object reference directs you from one object to another.  True or False?
+True
+False
+
+12. Which two statements are true?  (Choose two)
+(Choose all correct answers)
+An object can access another object’s public constructor.
+An object can access another object’s main method.
+An object can access another object’s public fields.
+An object can access another object’s public methods.
+
+13. Which two statements are true about getter methods?  (Choose two)
+(Choose all correct answers)
+Getters have a public access modifier.
+Getter methods typically return void.
+Getters usually accept no arguments.
+You must have a setter method if you have a getter method.
+
+14. Setters are void return type methods.  True or False?
+True
+False
+
+15. Access and visibility of a class should be limited as much as possible.  True or False?
+True
+False
+
+
+1. Given:
+int x[];
+What is the value of x?
+null
+Some random number.
+0
+1
+
+2. What is an array?
+An array is an indexed container that holds a set of values of a single type.
+An array is an indexed container that holds a set of values of a multiple types.
+An array is a way to create multiple copies of a single value.
+An array is a Java primitive type.
+
+3. What is the output?
+int[] arr = new int[5];
+ for(int i=0; i<arr.length; i++){
+     arr[i] = i;
+ }
+ for(int i=0; i<arr.length; i++) {
+     System.out.print(arr[i]);
+ }            
+012345
+12345
+01234
+123
+
+4. Which loop type is specially designed to traverse an array?
+while loop
+do while loop
+for loop
+repeat loop
+
+5. Arrays are like variables which must be declared prior to use.  True or False?
+True
+False
+
+
+
+6. The Java compiler does not check for an ArrayIndexOutOfBoundsException during the compilation of a program containing arrays.  True or False?
+True
+False
+
+7. Which is not a compilation error?
+y = 3 + * 5;
+int y;
+y++;
+int x=2
+x = ( 3 + 5;
+
+8. Identify where there is a potential bug in this code:
+
+int radiusOfCircle = 10;
+int areaOfCircle = Math.PI * radiusOfCircle * radiusOfCircle;
+A variable hasn’t been assigned a value.
+A semi-colon is missing.
+A variable name is misspelled.
+A datatype is incorrect.
+
+9. Using a Java debugger, you can set breakpoints and trace through a program one line at a time.  True or False?
+True
+False
+
+10. Which is NOT a benefit of ArrayList class?
+An ArrayList grows as you add elements.
+You can remove all of the elements of an ArrayList with a method.
+You can use an ArrayList list to store Java primitive values (like int).
+An ArrayList shrinks as you remove elements.
+
+
+
+11. How could you declare an ArrayList so that it can store true or false values?
+ArrayList<true, false> arrList = new ArrayList<>();
+ArrayList<Boolean> arrList = new ArrayList<>();
+ArrayList<boolean> arrList = new ArrayList<>();
+ArrayList<True, False> arrList = new ArrayList<>();
+
+12. Which is not used to traverse an ArrayList?
+iterator
+do- while loop
+for-each loop
+ListIterator
+
+(1) Points
+13. Each catch block is an exception handler that handles the type of exception indicated by its argument.  True or False?
+True
+False
+
+14. Which code goes in the try block?
+Any code that is likely to cause an exception.
+Any code that is safe from an exception.
+Any code that can handle an exception.
+Any code that is likely to print the exception details.
+
+15. An exception is an error that occurs during the execution of a program at run-time that disrupts the normal flow of the Java program.  True or False?
+True
+False
